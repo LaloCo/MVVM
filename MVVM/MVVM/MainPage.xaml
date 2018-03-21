@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MVVM"
+             x:Class="MVVM.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ViewModel x:Key="vm"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout VerticalOptions="Center"
+                 Margin="20,0"
+                 BindingContext="{StaticResource vm}">
+        <Entry Text="{Binding NumberOne, Mode=TwoWay}"/>
+        <Entry Text="{Binding Path=NumberTwo, Mode=TwoWay}"/>
+        <Label Text="{Binding Result, Mode=TwoWay}"/>
+    </StackLayout>
+
+</ContentPage>

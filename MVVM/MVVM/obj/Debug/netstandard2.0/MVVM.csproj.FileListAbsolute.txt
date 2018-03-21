@@ -1,0 +1,11 @@
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\bin\Debug\netstandard2.0\MVVM.deps.json
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\bin\Debug\netstandard2.0\MVVM.dll
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\bin\Debug\netstandard2.0\MVVM.pdb
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.csprojResolveAssemblyReference.cache
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.csproj.CoreCompileInputs.cache
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.App.xaml.g.cs
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.MainPage.xaml.g.cs
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.AssemblyInfoInputs.cache
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.AssemblyInfo.cs
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.dll
+C:\Users\lalor\source\repos\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.pdb
