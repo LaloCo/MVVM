@@ -2,11 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MVVM"
+             xmlns:cvrt="clr-namespace:MVVM.Converters"
              x:Class="MVVM.MainPage">
 
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:ViewModel x:Key="vm"/>
+            <cvrt:DoubleToColorConverter x:Key="doubleToColor"/>
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -23,7 +25,8 @@
                 Command="{Binding MultiplyCommand}"/>
         <Button Text="Divide"
                 Command="{Binding DivideCommand}"/>
-        <Label Text="{Binding Result, Mode=TwoWay}"/>
+        <Label Text="{Binding Result}"
+               TextColor="{Binding Result, Converter={StaticResource doubleToColor}}"/>
     </StackLayout>
 
 </ContentPage>

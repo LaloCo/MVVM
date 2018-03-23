@@ -91,7 +91,6 @@ C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\obj\Debug\android\assets\Syst
 C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\bin\Debug\MVVM.Android.dll
-C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\obj\Debug\linksrc\MVVM.pdb
 C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\obj\Debug\linksrc\MVVM.Android.dll.mdb
 C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\lalor\source\repos\MVVM\MVVM\MVVM.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
