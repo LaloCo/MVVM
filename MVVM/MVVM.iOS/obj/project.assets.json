@@ -124,6 +124,19 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
@@ -248,6 +261,19 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -374,6 +400,19 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
@@ -498,6 +537,19 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     }
@@ -689,10 +741,16 @@
         "xamarin.forms.2.5.0.280555.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "MVVM/1.0.0": {
+      "type": "project",
+      "path": "../MVVM/MVVM.csproj",
+      "msbuildProject": "../MVVM/MVVM.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "MVVM >= 1.0.0",
       "Xamarin.Forms >= 2.5.0.280555"
     ]
   },
@@ -727,7 +785,11 @@
       },
       "frameworks": {
         "xamarinios10": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lalor\\source\\repos\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {
+              "projectPath": "C:\\Users\\lalor\\source\\repos\\MVVM\\MVVM\\MVVM\\MVVM.csproj"
+            }
+          }
         }
       }
     },

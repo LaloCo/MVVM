@@ -12,9 +12,9 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <StackLayout VerticalOptions="Center"
-                 Margin="20,0"
-                 BindingContext="{StaticResource vm}">
+    <StackLayout VerticalOptions="Start"
+                    Margin="20,0"
+                    BindingContext="{StaticResource vm}">
         <Entry Text="{Binding NumberOne, Mode=TwoWay}"/>
         <Entry Text="{Binding Path=NumberTwo, Mode=TwoWay}"/>
         <Button Text="Add"
@@ -26,7 +26,14 @@
         <Button Text="Divide"
                 Command="{Binding DivideCommand}"/>
         <Label Text="{Binding Result}"
-               TextColor="{Binding Result, Converter={StaticResource doubleToColor}}"/>
+                TextColor="{Binding Result, Converter={StaticResource doubleToColor}}"/>
+        <ListView ItemsSource="{Binding Results}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Value}}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>

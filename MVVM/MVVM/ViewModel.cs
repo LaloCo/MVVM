@@ -1,8 +1,10 @@
 ﻿using MVVM.Commands;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text;
+using static MVVM.Model;
 
 namespace MVVM
 {
@@ -41,8 +43,12 @@ namespace MVVM
             {
                 result = value;
                 OnPropertyChanged("Result");
+                Results.Add(new Model.Result() { Value = result });
             }
         }
+
+        //! added using System.Collections.ObjectModel;
+       public ObservableCollection<Result> Results { get; set; }
 
         //! Added using MVVM.Commands;
         public AddCommand AddCommand { get; set; }
@@ -58,6 +64,8 @@ namespace MVVM
             SubtractCommand = new SubtractCommand(this);
             MultiplyCommand = new MultiplyCommand(this);
             DivideCommand = new DivideCommand(this);
+
+            Results = new ObservableCollection<Result>();
         }
 
         private void OnPropertyChanged(string propertyName)

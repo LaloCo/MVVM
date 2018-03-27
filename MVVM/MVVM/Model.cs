@@ -25,5 +25,15 @@ namespace MVVM
         {
             return n1 / n2;
         }
+
+        public class Result
+        {
+            public double Value { get; set; }
+
+            public override string ToString()
+            {
+                return $"{this.Value}";
+            }
+        }
     }
 }

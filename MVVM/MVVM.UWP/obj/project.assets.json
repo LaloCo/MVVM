@@ -273,6 +273,19 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
@@ -720,6 +733,19 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -1170,6 +1196,19 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
@@ -1617,6 +1656,19 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -2067,6 +2119,19 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
@@ -2514,6 +2579,19 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     },
@@ -2963,6 +3041,19 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "MVVM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "bin/placeholder/MVVM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVM.dll": {}
         }
       }
     }
@@ -6650,10 +6741,16 @@
         "xamarin.forms.2.5.0.280555.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "MVVM/1.0.0": {
+      "type": "project",
+      "path": "../MVVM/MVVM.csproj",
+      "msbuildProject": "../MVVM/MVVM.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
+      "MVVM >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.1",
       "Xamarin.Forms >= 2.5.0.280555"
     ]
@@ -6691,7 +6788,11 @@
       },
       "frameworks": {
         "uap10.0.16299": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lalor\\source\\repos\\MVVM\\MVVM\\MVVM\\MVVM.csproj": {
+              "projectPath": "C:\\Users\\lalor\\source\\repos\\MVVM\\MVVM\\MVVM\\MVVM.csproj"
+            }
+          }
         }
       }
     },
